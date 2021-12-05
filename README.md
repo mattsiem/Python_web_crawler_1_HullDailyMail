@@ -13,13 +13,12 @@ Also, I am not an expert in programming, and so a lot of the code was inspired b
 - Using BeatifulSoup to scrape data from Hull Daily Mail's front page: articles' titles, articles' labels, articles' authors;
 - Counting the number of articles per each tag/ author/ date;
 - Displaying simple summary information about the progress of scraping, and the gathered data;
-- Storing the gathered data in .xlsx file.
+- Reading and saving data in .xlsx file with Pandas.
 
 # Future improvements
 
-- Adding more variables to scrape such as: Articles body text, articles' comments text, articles' comments number; One of the issues which prevented me from doing this in the first version of the script was a difficulty in obtaining information and guidance on the dynamic comments system used on their website. At the time of researching this, it seemed like an API was necessary to conduct   
+- Adding more variables to scrape such as: Articles body text, articles' comments text, articles' comments number; One of the issues which prevented me from doing this in the first version of the script was a difficulty in obtaining information and guidance on the dynamic comments system used on their website. At the time of researching this, it seemed like an API was necessary to conduct.   
 - Analysing articles quality based on predefined criteria (Number of comments under articles as one of the measures of article popularity/ controvecy, scanning artciles body for gramatical and lexical mistakes, using corpus based system to define linguistic quality of the articles) by implementing different aspects computational linguistcs.
--
 
 # License
 If you find any part of this code useful, feel free to reuse it, modify it, and otherwise change it in any way you want.
