@@ -6,21 +6,21 @@ Having played around with Python for a little while, I have decided to create a 
 The data gathered using this code is stored in an .xlsx, and can be used for further analysis. In this case, I was not planning on using the data in any particular way, it was rather an experiement to see how quickly, and how easily I would have been able to develop such script. Therefore, the only analysis I conducted on the data were aimed at looking into which tags were most often used, on what dates, which authores published the most and least articles, and under which tags.
 
 The script was designed to be run manually, however some degree of automation can be achieved by using Windows Scheduler, or creating a simple automation script in Python.
-I am not an expert in programming, and a lot of the code was created by using resources found in various community groups, forums, etc. Majority of those have been appropiately referenced within the code.
+Also, I am not an expert in programming, and so a lot of the code was inspired by various solutions found on different community fora, wikis, etc. All the relevant sources are referenced in the code.
 
 # Main Functions
 
 - Using BeatifulSoup to scrape data from Hull Daily Mail's front page: articles' titles, articles' labels, articles' authors;
-- Count the number of articles per each tag/ author/ date;
-- Display simple summary information about the progress of scraping, and the data gathered;
-- Store the gathered data in .xlsx format;
+- Counting the number of articles per each tag/ author/ date;
+- Displaying simple summary information about the progress of scraping, and the gathered data;
+- Storing the gathered data in .xlsx file.
 
 # Future improvements
 
-- 
--
+- Adding more variables to scrape such as: Articles body text, articles' comments text, articles' comments number; One of the issues which prevented me from doing this in the first version of the script was a difficulty in obtaining information and guidance on the dynamic comments system used on their website. At the time of researching this, it seemed like an API was necessary to conduct   
+- Analysing articles quality based on predefined criteria (Number of comments under articles as one of the measures of article popularity/ controvecy, scanning artciles body for gramatical and lexical mistakes, using corpus based system to define linguistic quality of the articles) by implementing different aspects computational linguistcs.
 -
 
 # License
 If you find any part of this code useful, feel free to reuse it, modify it, and otherwise change it in any way you want.
-Author attribution is always appreciated, and so are the feedback and comments on potential improvements.
+Author attribution is always appreciated, and so are the comments, suggestions for improvements, and all other forms of feedback.
