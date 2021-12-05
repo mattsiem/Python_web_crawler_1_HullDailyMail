@@ -1,4 +1,6 @@
-# Project Title: FirstPythonCrawler_HullDailyMail
+# Project Title 
+
+The first attempt at Python Web Crawler
 
 # Project Description
 Having played around with Python for a little while, I have decided to create a simple web crawler script that would scrape some data from a local news paper website, Hull Daily Mail. In short, the script was designed to load predefined website — Hull Daily Mail's front page — and scrape titles of all the articles found on that site, along with other information such as author/s name/s, article label, and the total count of the articles on website. Besides simple scraping, it also contains a function for counting various variables such as total number of articles, tags with most articles, tags with least articles. 
